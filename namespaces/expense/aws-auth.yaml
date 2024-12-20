@@ -1,3 +1,4 @@
+#kubectl get -n kube-system configmap aws-auth -o yaml
 apiVersion: v1
 data:
   mapRoles: |
