@@ -20,7 +20,7 @@ metadata:
 subjects:
 # You can specify more than one "subject"
 - kind: User
-  name: harish # "name" is case sensitive
+  name: Leela # "name" is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
@@ -52,7 +52,7 @@ metadata:
   name: expense-cluster-reader
 subjects:
 - kind: User
-  name: harish # Name is case sensitive
+  name: Leela # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
